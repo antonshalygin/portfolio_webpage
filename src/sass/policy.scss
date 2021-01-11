@@ -1,0 +1,52 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import 'base/variables';
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+p {
+    margin: 20px auto;
+}
+
+.back {
+    position: fixed;
+    left: 50px;
+    top: 50%;
+    transform: rotate(-90deg) translate(0%,-260%);
+    background: $main-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 12px 25px;
+    color: #000;
+    &:hover {
+        text-decoration: none;
+    }
+}
